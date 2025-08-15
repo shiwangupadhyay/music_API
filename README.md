@@ -43,9 +43,7 @@ An API for searching, streaming, and getting song recommendations.
 
 ## Usage
 
-To run the API, use Uvicorn:```bash
-uvicorn app:app --reload
-```
+To run the API, use Uvicorn:```bash uvicorn app:app --reload ```
 
 The API documentation will be available at `http://127.0.0.1:8000/docs` (Swagger UI) and `http://127.0.0.1:8000/redoc` (ReDoc).
 
